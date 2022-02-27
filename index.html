@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,150 +9,199 @@
     <link name="favicon" rel="icon" type="image/x-icon" href="./favicon_coffee_bean.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap" rel="stylesheet">
     <title>Document</title>
-  </head>
-  <body>
-      <div class="page">
+</head>
+
+<body>
+    <div class="page">
         <header class="header">
-         <nav class="nav">
-          <img src="./images/logo_coffee_shop.svg" alt="logo" class="header__logo">
-          <div class="nav-links">
-            <a class="nav__link" href="#Staff">Menu</a>
-            <a class="nav__link" href="#Events">Recipes</a>
-            <a class="nav__link" href="#member">Book a table</a>
-            <a class="nav__link" href="#contacts">Contacts</a>
-          </div>
-        </nav>
-        <div class="header_container">
-          <div>
-            <h1 class="header_title" > <span class="headertitle_span-accent" style="color: #2f80ed;"> Specialty coffee</span>
-               in the Practicum Library </h1>
-            <p class="header__description">
-              Welcome to our study zone! We've got the coffee to energize you and</p>
-             <p class="header__description">the cozy vibes to help you get creative.</p> 
-            
-            <img src="./images/inside_coffee_shop.png" alt="Illustration 'inside_coffee_shop'" class="header__image" />
-          </div>
-        </div>
-  
-        <div class="header__footer">
-       <div class="header_footer_houres">
-         <p class="header_footer_paragraph">Hours</p>
-         <p class="header_footer_paragraph">Monday – Friday (10:00 – 19:00)</p>
-         <p class="header_footer_paragraph">Saturday – Sunday (11:00 – 18:00)</p>
-       </div>
-       <p class="header_footer_paragraph">200 Success Avenue, The Town of Practicum</p>
-        </div>
+            <nav class="nav">
+                <img src="./images/logo_coffee_shop.svg" alt="logo" class="header__logo">
+                <div class="nav-links">
+                    <a class="nav__link" href="#Staff">Menu</a>
+                    <a class="nav__link" href="#Events">Recipes</a>
+                    <a class="nav__link" href="#member">Book a table</a>
+                    <a class="nav__link" href="#contacts">Contacts</a>
+                </div>
+            </nav>
+            <div class="header_container">
+                <div>
+                    <h1 class="header__title"> <span class="header_title_span-accent" style="color: #2f80ed;"> Specialty coffee</span>
+                        <span>in the Practicum Library</span>
+                    </h1>
+                    <p class="header__description">
+                        <span>Welcome to our study zone! We've got the coffee to energize you and</span>
+                        <span> the cozy vibes to help you get creative.</span>
+                    </p>
+
+                    <img src="./images/inside_coffee_shop.png" alt="Illustration 'inside_coffee_shop'" class="header__image" />
+                </div>
+            </div>
+
+            <div class="header__footer">
+                <div class="header_footer_houres">
+                    <p class="header_footer_paragraph">Hours</p>
+                    <p class="header_footer_paragraph">Monday – Friday (10:00 – 19:00)</p>
+                    <p class="header_footer_paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+                </div>
+                <p class="header_footer_paragraph">200 Success Avenue, The Town of Practicum</p>
+            </div>
         </header>
         <!-- end header  -->
         <section class="menu">
-          
+
             <h3 class="menu__title">Menu</h3>
-            <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use
-              biodegradable cups. All teas from our collection are $2/cup.</p>
-        <div class="menu__cards">
-           <div class="menu__card">
-             <h2 class="menu__card_list-item">Filter</h2>
-             <ul >
-              <li class="menu_card_list-item">Regular (12 oz) <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$1</p></li>
-              <li class="menu_card_list-item">Large (16 oz) <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$1.25</p></li>
-              <li class="menu_card_list-item">XL (20 oz)) <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$1.5</p></li>
-              <li class="menu_card_list-item">Party-size (24 oz, decaf) <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$1.75</p></li>
-              <li class="menu_card_list-item">Iced Coffee (16 oz) <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$1.25</p></li>
-            </ul>
-           </div>
-           <div class="card">
-            <h2 class="menu__card_list-item">Espresso</h2>
-            <ul >
-             <li class="menu_card_list-item">Macchiato <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$2.25</p></li>
-             <li class="menu_card_list-item">Cortado <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$2.5</p></li>
-             <li class="menu_card_list-item">Mocha <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$3</p></li>
-             <li class="menu_card_list-item">Sunrise in the Bay Area (decaf) <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">10$</p></li>
-           </ul>
-          </div>
-          <div class="card">
-            <h2 class="menu__card_list-item">Baked Goods</h2>
-            <ul >
-             <li class="menu_card_list-item">Croissant <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$2</p></li>
-             <li class="menu_card_list-item">Banana Bread <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">$1.75</p></li>
-             <li class="menu_card_list-item">Key Lime Pie <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">3$</p></li>
-             <li class="menu_card_list-item">Blue Velvet Cake<p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">2$</p></li>
-             <li class="menu_card_list-item">Web Cookie <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">0.25$</p></li>
-             <li class="menu_card_list-item">Web Cookie <p class="menu__card_list-divider"></p><p class="menu_card_list-divider_price">0.25$</p></li>
-           </ul>
-          </div>
-        </div>
-          </div>
-          <div class="menu__card_title"></div>
-          <div class="menu_card_list_item"></div>
-          <div class="menu_card_list_divider"></div>
-        </section>
-        <!-- end menu -->
-        <section class ="recipes">
-          <h2 class="recipes__title">Recipes</h2>
-          <p class="recipes__subtitle"> Check out some recipes we've collected for
-            your home-brewing convenience: </p>
-          <div class="recipes__videos">
-            
-            <div  class="recipes__videos-iframe-left">
-              <iframe class="recipes__videos-iframe-video" width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <div class="recipes__videos-iframe-left__type-text">
-                <p>Aeropress recipe</p>
-                <p>~5 min</p>
-              </div>
+            <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.</p>
+            <div class="menu__cards">
+                <div class="menu__card">
+                    <h2 class="menu__card_list-item">Filter</h2>
+                    <ul class="menu__card-type-ul">
+                        <li class="menu_card_list-item">Regular (12 oz)
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$1</p>
+                        </li>
+                        <li class="menu_card_list-item">Large (16 oz)
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$1.25</p>
+                        </li>
+                        <li class="menu_card_list-item">XL (20 oz))
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$1.5</p>
+                        </li>
+                        <li class="menu_card_list-item">Party-size (24 oz, decaf)
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$1.75</p>
+                        </li>
+                        <li class="menu_card_list-item">Iced Coffee (16 oz)
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$1.25</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__card">
+                    <h2 class="menu__card_list-item">Espresso</h2>
+                    <ul class="menu__card-type-ul">
+                        <li class="menu_card_list-item">Macchiato
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$2.25</p>
+                        </li>
+                        <li class="menu_card_list-item">Cortado
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$2.5</p>
+                        </li>
+                        <li class="menu_card_list-item">Mocha
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$3</p>
+                        </li>
+                        <li class="menu_card_list-item">Sunrise in the Bay Area (decaf)
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">10$</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__card">
+                    <h2 class="menu__card_list-item">Baked Goods</h2>
+                    <ul class="menu__card-type-ul">
+                        <li class="menu_card_list-item">Croissant
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$2</p>
+                        </li>
+                        <li class="menu_card_list-item">Banana Bread
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">$1.75</p>
+                        </li>
+                        <li class="menu_card_list-item">Key Lime Pie
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">3$</p>
+                        </li>
+                        <li class="menu_card_list-item">Blue Velvet Cake
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">2$</p>
+                        </li>
+                        <li class="menu_card_list-item">Web Cookie
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">0.25$</p>
+                        </li>
+                        <li class="menu_card_list-item">Web Cookie
+                            <p class="menu__card_list-divider"></p>
+                            <p class="menu_card_list-divider_price">0.25$</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <div class="menu__card_title"></div>
+    <div class="menu_card_list_item"></div>
+    <div class="menu_card_list_divider"></div>
+    </section>
+    <!-- end menu -->
+    <section class="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle"> Check out some recipes we've collected for your home-brewing convenience: </p>
+        <div class="recipes__videos">
+
+            <div class="recipes__videos-iframe-left">
+                <iframe class="recipes__videos-iframe-video" width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="recipes__videos-iframe-left__type-text">
+                    <p>Aeropress recipe</p>
+                    <p>~5 min</p>
+                </div>
             </div>
 
-            <div  class="recipes__videos-iframe-right">
-              <iframe class="recipes__videos-iframe" width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-              <div class="recipes__videos-iframe-right__type-text">
-                <p>French press recipe</p>
-              <p>~5 min</p>
-              </div>
+            <div class="recipes__videos-iframe-right">
+                <iframe class="recipes__videos-iframe" width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen> </iframe>
+                <div class="recipes__videos-iframe-right__type-text">
+                    <p>French press recipe</p>
+                    <p>~5 min</p>
+                </div>
             </div>
-            
-          </div>
-        </section>
-        <section class ="reservation">
-          <h2 class="reservation__title">Book a table</h2>
-          <div class="reservation__form">
-          
-          <form class="reservation__form-fieldset" name="form">
-            <label class="reservation__form-label" for="name">Name</label>
-              <input class="reservation__form-input" type="text" name="name" placeholder="Name Surname">
 
-              <label class="reservation__form-label" for="Number">Number of guests</label>
-              <input class="reservation__form-input" type="number" name="Number" placeholder="1-8">
-
-              <label class="reservation__form-label" for="Date">Date & time </label>
-              <input class="reservation__form-input"  type="text" name="Date" value="dd.mm.yyyy">
-
-                  <label class="reservation__form-label" for="email">Your email </label>
-                  <input class="reservation__form-input" type="email" name="email" placeholder="email@email.com">
-          </form>
-          <button class="reservation__form-button">Book a table</button>
-          <div class="reservation__from-checkbox">
-            <input  type="checkbox" id="scales" name="terms"checked>
-            <label for="terms">I agree with the terms of use</label>
-          </div> 
         </div>
-        </section>
-        <section class="about">
-          
-          <h3 class="about__title">About the coffe shop</h3>
-          
-          <div class="about__content"  >
+    </section>
+    <section class="reservation">
+        <h2 class="reservation__title">Book a table</h2>
+        <div class="reservation__form">
+
+            <form class="reservation__form-fieldset" name="form">
+                <label class="reservation__form-label" for="name">Name</label>
+                <input class="reservation__form-input" type="text" name="name" placeholder="Name Surname">
+
+                <label class="reservation__form-label" for="Number">Number of guests</label>
+                <input class="reservation__form-input" type="number" name="Number" placeholder="1-8">
+
+                <label class="reservation__form-label" for="Date">Date & time </label>
+                <input class="reservation__form-input" type="text" name="Date" value="dd.mm.yyyy">
+
+                <label class="reservation__form-label" for="email">Your email </label>
+                <input class="reservation__form-input" type="email" name="email" placeholder="email@email.com">
+            </form>
+            <button class="reservation__form-button">Book a table</button>
+            <div class="reservation__from-checkbox">
+                <input type="checkbox" id="scales" name="terms" checked>
+                <label for="terms">I agree with the terms of use</label>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+
+        <h3 class="about__title">About the coffe shop</h3>
+
+        <div class="about__content">
             <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ratione corrupti </p>
             <p class="about__paragraph">velit ipsam nihil deserunt nemo culpa distinctio veniam asperiores. Tempora suscipit voluptatem fugiat asperiores repellat dolor? Aut, sunt neque.</p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusamus corporis asperiores.</p>
-          </div>
-          <div class="about__circle"></div>
-          <div class="about__circle about__circle_animation_blurred"></div>
-        </section>
-        <footer>
+        </div>
+        <div class="about__circle"></div>
+        <div class="about__circle about__circle_animation_blurred"></div>
+    </section>
+    <footer>
 
-        </footer>
+    </footer>
 
 
-        
-      </div>
-  </body>
+
+    </div>
+</body>
+
 </html>
