@@ -25,26 +25,25 @@
             </nav>
             <div class="header_container">
                 <div>
-                    <h1 class="header__title"> <span class="header_title_span-accent" style="color: #2f80ed;"> Specialty coffee</span>
+                    <h1 class="header__title"> <span class="span-accent" style="color: #2f80ed;"> Specialty
+                            coffee</span>
                         <span>in the Practicum Library</span>
                     </h1>
-                    <p class="header__description">
-                        <span>Welcome to our study zone! We've got the coffee to energize you and</span>
-                        <span> the cozy vibes to help you get creative.</span>
+                    <p>
+                        <span class="header__description">Welcome to our study zone! We've got the coffee to energize
+                            you and</span>
+                        <span class="header__description"> the cozy vibes to help you get creative.</span>
                     </p>
-
                     <img src="./images/inside_coffee_shop.png" alt="Illustration 'inside_coffee_shop'" class="header__image" />
                 </div>
             </div>
-
-            <div class="header__footer">
-                <div class="header_footer_houres">
-                    <p class="header_footer_paragraph">Hours</p>
-                    <p class="header_footer_paragraph">Monday – Friday (10:00 – 19:00)</p>
-                    <p class="header_footer_paragraph">Saturday – Sunday (11:00 – 18:00)</p>
-                </div>
-                <p class="header_footer_paragraph">200 Success Avenue, The Town of Practicum</p>
+            <div class="header__paragraphs">
+                <p class="header__paragraph-hourse">Hours</p>
+                <p class="header__paragraph-hourse">Monday – Friday (10:00 – 19:00)</p>
+                <p class="header__paragraph-hourse">Saturday – Sunday (11:00 – 18:00)</p>
             </div>
+            <p class="header__paragraph-description">200 Success Avenue, The Town of Practicum</p>
+
         </header>
         <!-- end header  -->
         <section class="menu">
@@ -161,34 +160,44 @@
     </section>
     <section class="reservation">
         <h2 class="reservation__title">Book a table</h2>
-        <div class="reservation__form">
 
-            <form class="reservation__form-fieldset" name="form">
+
+        <form class="reservation__form" name="form">
+            <div class="reservation__form-fieldset">
                 <label class="reservation__form-label" for="name">Name</label>
                 <input class="reservation__form-input" type="text" name="name" placeholder="Name Surname">
+
 
                 <label class="reservation__form-label" for="Number">Number of guests</label>
                 <input class="reservation__form-input" type="number" name="Number" placeholder="1-8">
 
+
                 <label class="reservation__form-label" for="Date">Date & time </label>
                 <input class="reservation__form-input" type="text" name="Date" value="dd.mm.yyyy">
 
+
                 <label class="reservation__form-label" for="email">Your email </label>
                 <input class="reservation__form-input" type="email" name="email" placeholder="email@email.com">
-            </form>
+            </div>
+
             <button class="reservation__form-button">Book a table</button>
-            <div class="reservation__from-checkbox">
-                <input type="checkbox" id="scales" name="terms" checked>
+            <div class="resrvation__checkbox">
+                <input class="resrvation__checkbox-input" type="checkbox" id="scales" name="terms" checked>
                 <label for="terms">I agree with the terms of use</label>
             </div>
+        </form>
+
+
         </div>
+
     </section>
     <section class="about">
 
         <h3 class="about__title">About the coffe shop</h3>
 
         <div class="about__content">
-            <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ratione corrupti </p>
+            <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ratione corrupti
+            </p>
             <p class="about__paragraph">velit ipsam nihil deserunt nemo culpa distinctio veniam asperiores. Tempora suscipit voluptatem fugiat asperiores repellat dolor? Aut, sunt neque.</p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusamus corporis asperiores.</p>
         </div>
