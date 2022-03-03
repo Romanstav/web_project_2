@@ -248,6 +248,8 @@ html {
 
 .recipes__videos-iframe-left {
     padding-right: 40px;
+    width: 480px;
+    height: 273px;
 }
 
 .recipes__videos-iframe-left__type-text {
@@ -256,7 +258,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
-    width: 480px;
+    width: 290px;
 }
 
 .recipes__videos-iframe-right__type-text {
@@ -265,7 +267,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
-    width: 480px;
+    width: 290px;
 }
 
 .reservation {
